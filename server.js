@@ -87,7 +87,7 @@ app.get("/api/weekly-trend", async (req, res) => {
   }
 });
 // Per Teacher Analysis Route
-// Per Teacher Analysis Route
+
 app.get("/api/teacher/:name", async (req, res) => {
   try {
     const teacherName = decodeURIComponent(req.params.name);
